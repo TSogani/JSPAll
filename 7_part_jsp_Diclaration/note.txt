@@ -1,0 +1,13 @@
+JSP-Diclaration
+
+if we declare instance memembers and  static members directly without any spacial Symbole that is placed inside templet text.
+
+if we declare instance memembers and  static members inside in scriptlet. we not declare method is method.
+anything we write in scriptlt that code placed inside _jspService(); and that are not valid.
+
+so we write instance and staic memembers we use jsp Declaration.
+
+	<%!
+
+
+	%>

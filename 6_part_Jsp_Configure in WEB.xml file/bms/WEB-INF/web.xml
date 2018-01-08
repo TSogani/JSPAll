@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>a</servlet-name>
+		<jsp-file>/WEB-INF/One.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a</servlet-name>
+		<url-pattern>/a</url-pattern>
+	</servlet-mapping>
+</web-app>

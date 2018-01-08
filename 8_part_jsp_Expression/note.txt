@@ -1,0 +1,7 @@
+JSP-Expression
+
+getting/taking  value from a variable and display the value it's called java Expression. 
+
+<%= expression %>
+
+

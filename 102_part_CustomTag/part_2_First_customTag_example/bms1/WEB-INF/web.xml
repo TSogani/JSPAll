@@ -1,0 +1,6 @@
+<webapp>
+	<tag-lib>
+		<tag-uri>http://info.inetsolv/tag/</tag-uri>
+		<taglib-location>WEB-INF/tld/arthApp.tld</taglib-location>
+	</tag-lib>
+</webapp>

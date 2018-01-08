@@ -1,0 +1,20 @@
+in case of jsp when clint send request then server will create one bufferof size is 8KB.
+
+following scenario server send the output on browser:-
+
+	1. when the jsp execution complet then its take the data and send to the browser.
+	2. jsp execution not completed but buffered is got filled, in this scenario server takes the buffer and send to 	   browser, when server send cantains to the browser,server clean the buffer and reuse again. 
+
+	
+	budefault autoFlush Mode is enabled. (true). 
+
+	if we incress the buffer size
+	
+
+		<% page buffer="80kb" %>  
+
+		
+		<% page autoFlash="flash" %>
+
+
+	not recommended to change the buffer size and as well as nor recommended to change autoFlash.

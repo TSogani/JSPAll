@@ -1,0 +1,9 @@
+
+G:\jsp_prac\2_part_Genrated_Servlet\weblogic>java weblogic.jspc  -keepgenerated
+One.jsp
+
+
+[jspc] warning: expected file /WEB-INF/web.xml  not found, tag libraries cannot
+be resolved.
+[jspc] Overriding  default descriptor option 'keepgenerated' with value specifie
+d on command-line 'true'

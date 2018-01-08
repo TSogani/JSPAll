@@ -1,0 +1,13 @@
+org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Program Files\Apache Software Foundation\Tomcat 8.0\work\Catalina\localhost\bms\org\apache\jsp\Two_jsp.java]
+One.jsp cannot be resolved to a type
+
+An error occurred at line: [52] in the generated java file: [C:\Program Files\Apache Software Foundation\Tomcat 8.0\work\Catalina\localhost\bms\org\apache\jsp\Two_jsp.java]
+The method getServletConfig() is undefined for the type Two_jsp
+
+An error occurred at line: [53] in the generated java file: [C:\Program Files\Apache Software Foundation\Tomcat 8.0\work\Catalina\localhost\bms\org\apache\jsp\Two_jsp.java]
+The method getServletConfig() is undefined for the type Two_jsp
+
+An error occurred at line: [80] in the generated java file: [C:\Program Files\Apache Software Foundation\Tomcat 8.0\work\Catalina\localhost\bms\org\apache\jsp\Two_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (Two_jsp, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)

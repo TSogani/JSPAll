@@ -1,0 +1,8 @@
+jsp directives the instraction  given to the compilar, jsp compilar follow these instruction to convert jsp code into corresponding Servlet code.
+
+<%@ directive_name attribute="value" %>
+
+	3 directives :-
+		1. page
+		2. include
+		3. taglib

@@ -1,0 +1,39 @@
+<web-app>
+	<servlet>
+		<servlet-name>Sinfo</servlet-name>
+		<servlet-class>info.inetsolv.Sinfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Sinfo</servlet-name>
+		<url-pattern>/Sinfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Ainfo</servlet-name>
+		<servlet-class>info.inetsolv.Ainfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Ainfo</servlet-name>
+		<url-pattern>/Ainfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Pinfo</servlet-name>
+		<servlet-class>info.inetsolv.Pinfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pinfo</servlet-name>
+		<url-pattern>/Pinfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Store</servlet-name>
+		<servlet-class>info.inetsolv.Store</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Store</servlet-name>
+		<url-pattern>/Store</url-pattern>
+	</servlet-mapping>
+	
+			
+</web-app>

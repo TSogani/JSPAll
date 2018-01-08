@@ -1,0 +1,53 @@
+<taglib>
+<tlib-version>1.0</tlib-version>
+<short-name>o</short-name>
+<uri>http://info.inetsolv/tags/</uri>
+<tag>
+	<name>add</name>
+	<tag-class>com.mytaglib.operation.AddTagHandler</tag-class>
+	<attribute>
+		<name>pOne</name>
+		<required>true</required>
+	</attribute>
+	<attribute>
+		<name>pTwo</name>
+		<required>true</required>
+	</attribute>
+</tag>
+<tag>
+	<name>sub</name>
+	<tag-class>com.mytaglib.operation.SubTagHandler</tag-class>
+	<attribute>
+		<name>pOne</name>
+		<required>true</required>
+	</attribute>
+	<attribute>
+		<name>pTwo</name>
+		<required>true</required>
+	</attribute>
+</tag>
+<tag>
+	<name>mul</name>
+	<tag-class>com.mytaglib.operation.MulTagHandler</tag-class>
+	<attribute>
+		<name>pOne</name>
+		<required>true</required>
+	</attribute>
+	<attribute>
+		<name>pTwo</name>
+		<required>true</required>
+	</attribute>
+</tag>
+<tag>
+	<name>div</name>
+	<tag-class>com.mytaglib.operation.DivTagHandler</tag-class>
+	<attribute>
+		<name>pOne</name>
+		<required>true</required>
+	</attribute>
+	<attribute>
+		<name>pTwo</name>
+		<required>true</required>
+	</attribute>
+</tag>
+</taglib>

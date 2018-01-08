@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;1_SearchRecord_productId_using jndi&apos;&#x0D;&#x0A;- Original project: &apos;1_SearchRecord_productId_using jndi&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     JndiConnectionFactory.java&#x0D;&#x0A;     ProductJB.java&#x0D;&#x0A;     ProductServlet.java" description="Delete elements" element1="/src&lt;{JndiConnectionFactory.java" element2="/src&lt;{ProductJB.java" element3="/src&lt;{ProductServlet.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1448859373517" subPackages="false" version="1.0"/>
+</session>

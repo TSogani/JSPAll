@@ -1,0 +1,58 @@
+<taglib>
+	<tlib-version> 1.0 <tlib-version>
+	<short-name>a<short-name>
+	<uri>http://info.inetsolv/tag/</uri>
+	
+	
+	<tag>
+		<name>add<name>
+		<tag-class>info.inetsolv.AddTH</tag-class>
+		<attribute>
+			<name>pone</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>ptwo</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>sub</name>
+		<tag-class>info.inetsolv.SubTH</tag-class>
+		<attribute>
+			<name>pone</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>ptwo</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>div</name>
+		<tag-class>info.inetsolv.DivTH</tag-class>
+		<attribute>
+			<name>pone</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>ptwo</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>mul</name>
+		<tag-class>info.inetsolv.MulTH</tag-class>
+		<attribute>
+			<name>pone</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>ptwo</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+</taglib>

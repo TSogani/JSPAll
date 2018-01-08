@@ -1,0 +1,40 @@
+package info.inetsolv;
+import javax.naming.*;
+import java.util.*;
+
+public class JndiConnectionFactory{
+
+	static Object obj;
+	static{
+		try{
+		Hashtable<Object,String> ht = new Hashtable<Object, String>();
+
+		ht.put(Context.INITIAL_CONTEXT_FACTORY,"weblogic.jndi.WLInitialContextFactory");
+		ht.put(Context.PROVIDER_URL,"t3://localhost:7001");
+		ht.put(Context.SECURITY_PRINCIPAL,"weblogic");
+		ht.put(Context.SECURITY_CREDENTIALS,"weblogic123");
+		Context context = new InitialContext(ht);
+/*
+		ht.put(Context.INITIAL_CONTEXT_FACTORY,"weblogic.jndi.WLInitialContextFactory");
+		ht.put(Context.PROVIDER_URL,"t3://localhost:7001");
+		ht.put(Context.SECURITY_PRINCIPAL,"weblogic");
+		ht.put(Context.SECURITY_CREDENTIALS,"weblogic123");
+		Context context = new InitialContext(ht);
+*/		
+		System.out.println("jndi context_____________________________________"+context);
+		
+		obj = context.lookup("JSPDS");
+		
+		System.out.println(obj);
+ 		
+		System.out.println("jndi obj__________________________________________"+obj);
+		}catch(NamingException p){
+			p.printStackTrace();
+		}
+	}
+	public static Object getJndiInstance() {
+
+		return obj;
+	}
+	
+}

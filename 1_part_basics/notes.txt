@@ -1,0 +1,3 @@
+if we not specify web.xml then work
+
+in case of weblogic 10 that are not working.

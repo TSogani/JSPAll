@@ -1,0 +1,4 @@
+chk browser cookie disable 
+and after chk enable. 
+
+and see url also & view source.

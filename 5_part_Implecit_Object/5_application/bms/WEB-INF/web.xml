@@ -1,0 +1,24 @@
+<web-app>
+	<context-param>
+		<param-name>drv</param-name>
+		<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+	</context-param>
+	<context-param>
+		<param-name>dbname</param-name>
+		<param-value>hibernate</param-value>
+	</context-param>
+	<context-param>
+		<param-name>dbpwd</param-name>
+		<param-value>hibernate</param-value>
+	</context-param>
+
+
+	<servlet>
+		<servlet-name>a</servlet-name>
+		<jsp-file>/WEB-INF/One.jsp</jsp-file>		
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>a</servlet-name>
+		<url-pattern>/a</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,3 @@
+(in case of tomcate)
+crossContext=true - in config file then we can send request to one project to another project. in a same server.
+

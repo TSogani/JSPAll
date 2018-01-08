@@ -1,0 +1,7 @@
+chk browser cookie disable we get null value. 
+
+and after chk enable. 
+
+and see url also & view source.
+
+resolve this problem we use encodeURL;

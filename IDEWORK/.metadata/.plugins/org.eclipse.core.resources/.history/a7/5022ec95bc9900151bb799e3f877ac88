@@ -1,0 +1,11 @@
+<tlib-version>1.0</tlib-version>
+<short-name>o</short-name>
+<uri>http://info.inetsolv/tags</uri>
+<tag>
+	<name>add</name>
+	<tag-class>com.mytaglib.operation.AddTagHandler</tag-class>
+	<attribute>
+		<name>pOne</name>
+		<required>true</required>
+	</attribute>
+</tag>

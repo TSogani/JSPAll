@@ -1,0 +1,22 @@
+when we write java code in jsp then we use scriptlet.
+Scriptlet is a tag.
+	
+	<%
+		// java code.
+	%>
+	
+	when we start Scriptlet tag then ending tag is mandatary.
+	
+	otherwise we get error. 
+	(incase of jsp error display on browser.)
+	
+	- follow top down approch.
+	
+	- any no of scriptlet we write in a single program.
+	
+
+	we write java code inside the Scriptlet that code directly places inside _jspService(...).
+	
+	
+
+

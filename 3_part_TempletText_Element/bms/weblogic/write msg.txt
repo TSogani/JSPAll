@@ -1,0 +1,10 @@
+
+
+  private final static java.lang.String  _wl_block0 ="from One.jsp\r\nfirst line \r\nsecound line\r\n";
+    private final static byte[]  _wl_block0Bytes = _getBytes( _wl_block0 );
+
+
+
+use different way 
+
+use variable and convert and print in write method 
